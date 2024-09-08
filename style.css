@@ -115,6 +115,14 @@ section button {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
+.descricao-meta a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+.descricao-meta a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
 /* Estiliza o rodapé da página */
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
